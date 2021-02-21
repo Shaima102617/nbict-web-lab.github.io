@@ -42,6 +42,7 @@ let myName;
  console.log(myName);
  */
 //mathmatical operators
+
 /*
 const now = 2021;
 const ShaimaAge = now - 1993;
@@ -68,11 +69,11 @@ console.log(ShaimaAge > royAge);
 console.log(royAge>= 18);
 */
 
-
+/*
 const country = 'Bangladesh';
 const continent ='asia';
 let population = 180;
-console.log(country , continent , population);
+console.log(country , cntinent , population);
 
 
 const isIsland = true;
@@ -98,5 +99,53 @@ console.log(typeof(language));
  console.log(averagepopulation > population);
 
 
-let description = country + ' ' + ' is in ' + ' ' + continent + ', and it  is ' + population + ' ' + ' people speak ' + language + '.';
+let description = country + ' ' +' is in ' + ' ' + continent + ', and it  is ' + population + ' ' + ' people speak ' + language + '.';
 console.log(description);
+*/
+
+
+// operator precedence
+
+/*
+const now = 2037;
+const ageJonus = now  - 1992;
+const ageSara = now - 1998;
+
+const averageAge = (ageJonus + ageSara) / 2;
+
+console.log(ageJonus, ageSara , averageAge);
+
+
+console.log(now - 1992 > 
+    now - 1998);
+
+const x = y = 25 - 10 + 5;
+console.log(x);
+*/
+
+/*
+const massMark = 78;
+const massJohn = 92;
+const heightMark = 1.69;
+const heightJohn = 1.95;
+ console.log(massMark, massJohn , heightMark , heightJohn);
+
+ const Markbmi = massMark / (heightMark * heightMark);
+ const Johnbmi = massJohn / (heightJohn * heightJohn);
+
+let markHigherBMI = Markbmi > Johnbmi;
+
+ console.log(Markbmi , Johnbmi ,markHigherBMI);
+ */
+
+
+const massMark = 95;
+const massJohn = 85;
+const heightMark = 1.88;
+const heightJohn = 1.76;
+console.log(massMark, massJohn, heightMark, heightJohn);
+
+const MarkBMI = massMark / (heightMark * heightMark);
+const JohnBMI = massJohn / (heightJohn * heightJohn);
+let markHigherBMI = MarkBMI > JohnBMI;
+console.log(MarkBMI , JohnBMI , markHigherBMI);
