@@ -6,6 +6,7 @@ console.log(7-11+19*2);
 
 let firstName = 'sohana ';
 let lastName ='shaima';
+
 console.log(firstName +  '+ lastName + ' is a computer engineer.'
  + lastName +' is a beautiful girl');
 
@@ -130,6 +131,7 @@ const heightMark = 1.69;
 const heightJohn = 1.95;
  console.log(massMark, massJohn , heightMark , heightJohn);
 
+
  const Markbmi = massMark / (heightMark * heightMark);
  const Johnbmi = massJohn / (heightJohn * heightJohn);
 
@@ -138,14 +140,67 @@ let markHigherBMI = Markbmi > Johnbmi;
  console.log(Markbmi , Johnbmi ,markHigherBMI);
  */
 
-
+/*
 const massMark = 95;
 const massJohn = 85;
 const heightMark = 1.88;
 const heightJohn = 1.76;
 console.log(massMark, massJohn, heightMark, heightJohn);
 
+
 const MarkBMI = massMark / (heightMark * heightMark);
 const JohnBMI = massJohn / (heightJohn * heightJohn);
 let markHigherBMI = MarkBMI > JohnBMI;
 console.log(MarkBMI , JohnBMI , markHigherBMI);
+
+*/
+
+
+// Strings and Template Literals
+/*
+
+const firstName = ' Jonas';
+const job = ' Teacher';
+const birthYear = 1993;
+const currentYear = 2037;
+
+// I'm Jonas, a 44 years old teacher!
+
+const jonas = " I'm " + firstName + ', a ' + (currentYear - birthYear) + ' years old'+ job + '!';
+
+const jonasNew = ` I'm ${firstName}, a ${currentYear - birthYear} years old${job}!`;
+console.log(jonas);
+console.log(jonasNew);
+
+console.log(' I am \n\ a multiline \n\ string');
+
+console.log(`I am 
+a multiline 
+string....`);
+
+console.log(`This is a new line in back tick.`);
+
+*/
+
+
+
+const firstName = 'Abu Shaid';
+const lastName = 'Sabbir';
+const topics = 'Javascript';
+const institute = 'NBICT LAB';
+const startYear = 2016;
+const endYear = 2021;
+
+const result = " I'm " + firstName +' ' + lastName + '. I am learning ' + topics + ' at ' + institute + ' for ' + (endYear -startYear) + ' years!';
+console.log(result);
+
+
+console.log(`I'm ${firstName} ${lastName}.I am learning ${topics} at ${institute} for ${endYear - startYear} years!`)
+
+console.log(`i am ${firstName} ${lastName}.
+I am learning ${topics} at
+${institute} for ${endYear -startYear} years!`);
+
+console.log("I am Abu shaid Sabbir.\n\
+I am learning Javascript \n\
+NBICT LAB for 5 years");
